@@ -1,0 +1,177 @@
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+ h1{
+    color: aliceblue;
+    font-size: 3.2em;
+ }
+ p{
+    color: aliceblue;
+    font-size: 13px;
+    
+ }
+.top-section{
+    width: 40%;
+    margin: 2%;
+    padding: 2%;
+    float: left;
+}
+.top-section img{
+    width: 100%;
+     
+    
+    
+}
+header{
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+}
+section{
+    background-color: black;
+    width: 950px;
+    height: 420px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    }
+    .fa-greater-than{
+        font-size: 1.3em;
+        padding-left: 5px;
+        
+    }
+    .anchor-button{
+        text-decoration: none;
+        background-color:red;
+        color: aliceblue;
+        padding: 10px 35px;
+        font-weight: 500;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .form-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 20px;
+         
+        
+        
+        
+    }
+    .section-form{
+        height: 200px;
+        width: 195px;
+        background-color: black;
+         margin-left: 10%;
+         margin-top: 8%;
+        
+        
+    }
+     .form-section input{
+        padding: 15px 30px;
+        
+        border-radius: 10px;
+        font-size: 1em;
+         font-weight: 700;
+     }
+     .form-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 20px;
+         
+        
+        
+        
+    }
+     #blog{
+        background-color: red;
+        color: white;
+     }
+     .match {
+        background-color: white;
+        margin-right: 6%;
+        margin-top: 7%;
+        
+     }
+     .match-section{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap:15px;
+     }
+     main{
+         
+          margin-bottom: 30%;
+        display: flex;
+        justify-content:center; 
+         }
+
+         .transfer{
+            border: 1px solid gainsboro;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+         }
+     .transfer img{
+        width: 100%;
+     }
+     .icon{
+        color: black;
+     }
+      .time-section{
+        display: flex;
+        align-items: flex-start;
+        
+     }
+     .fa-clock{
+        margin-right: 10px;
+     }
+     .fa-message{
+        margin-right: 10px;
+        margin-left: 25px;
+     }
+     .transfer-button{
+        padding: 5px 16px;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid  black;
+     }
+     footer{
+        text-align: center;
+        color: white;
+        background-color: black;
+        padding: 7% 10%;
+     }
+     h2{
+        font-size: 2em;
+     }
+     hr{
+        background-color: #7C99AC;
+        
+     }
+     nav li{
+        list-style: none;
+        margin-right: 20px;
+        padding: 0 10px;
+        margin-left: 20px;
+     }
+     nav li a{
+        text-decoration: none;
+        color:#DDDDDD;
+        font-size: 13px;
+        
+     }
+     nav ul{
+        display: flex;
+     }
+     .social{
+        margin: 10px;
+        padding: 10px;
+        font-size: 1.5em;
+        background-color:  #1F4690;
+        border-radius: 40px;
+     }
+     
+     .fa-twitter {
+        background-color:   skyblue ;
+     }
