@@ -1,7 +1,28 @@
+/****font***/
+
 body{
     
     font-family: 'Poppins', sans-serif;
 }
+/**header section****/
+header{
+   display: flex;
+   align-items: center;
+  flex-direction: column;
+  transition: transform 2s linear ;
+}
+header:hover{
+  transform: scale(0.5);
+}
+section{
+   background-color: black;
+   width: 950px;
+   height: 420px;
+   padding: 20px;
+   border-radius: 15px;
+   margin-top: 20px;
+   
+   }
  h1{
     color: aliceblue;
     font-size: 3.2em;
@@ -18,30 +39,10 @@ body{
     float: left;
 }
 .top-section img{
-    width: 100%;
-     
-    
-    
+    width: 100%;   
 }
-header{
-    display: flex;
-    align-items: center;
-   flex-direction: column;
-}
-section{
-    background-color: black;
-    width: 950px;
-    height: 420px;
-    padding: 20px;
-    border-radius: 15px;
-    margin-top: 20px;
-    }
-    .fa-greater-than{
-        font-size: 1.3em;
-        padding-left: 5px;
-        
-    }
-    .anchor-button{
+
+.anchor-button{
         text-decoration: none;
         background-color:red;
         color: aliceblue;
@@ -50,24 +51,35 @@ section{
         border-radius: 5px;
         margin-top: 20px;
     }
+    .fa-greater-than{
+      font-size: 1.3em;
+      padding-left: 5px;
+      
+  }
+  /************
+     main section
+     ***********/
+
+     main{
+         
+      margin-bottom: 30%;
+    display: flex;
+    justify-content:center; 
+     }
+
+     .section-form{
+      height: 200px;
+      width: 195px;
+      background-color: black;
+       margin-left: 10%;
+       margin-top: 8%;
+      }
     .form-section{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         row-gap: 20px;
-         
-        
-        
-        
-    }
-    .section-form{
-        height: 200px;
-        width: 195px;
-        background-color: black;
-         margin-left: 10%;
-         margin-top: 8%;
-        
-        
-    }
+      }
+    
      .form-section input{
         padding: 15px 30px;
         
@@ -75,19 +87,17 @@ section{
         font-size: 1em;
          font-weight: 700;
      }
+     #blog{
+      background-color: red;
+      color: white;
+   }
      .form-section{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         row-gap: 20px;
          
-        
-        
-        
-    }
-     #blog{
-        background-color: red;
-        color: white;
-     }
+        }
+     
      .match {
         background-color: white;
         margin-right: 6%;
@@ -99,12 +109,7 @@ section{
         grid-template-columns: repeat(3,1fr);
         grid-gap:15px;
      }
-     main{
-         
-          margin-bottom: 30%;
-        display: flex;
-        justify-content:center; 
-         }
+     
 
          .transfer{
             border: 1px solid gainsboro;
@@ -115,6 +120,12 @@ section{
      .transfer img{
         width: 100%;
      }
+     .transfer-button{
+      padding: 5px 16px;
+      background-color: white;
+      border-radius: 5px;
+      border: 1px solid  black;
+   }
      .icon{
         color: black;
      }
@@ -130,12 +141,10 @@ section{
         margin-right: 10px;
         margin-left: 25px;
      }
-     .transfer-button{
-        padding: 5px 16px;
-        background-color: white;
-        border-radius: 5px;
-        border: 1px solid  black;
-     }
+     /**********
+      footer section
+      ***********/
+     
      footer{
         text-align: center;
         color: white;
@@ -175,3 +184,5 @@ section{
      .fa-twitter {
         background-color:   skyblue ;
      }
+      
+      

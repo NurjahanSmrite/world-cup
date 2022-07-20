@@ -1,7 +1,30 @@
+
+/****body utilize and fonts*****/
 body{
     
     font-family: 'Poppins', sans-serif;
 }
+
+/************
+ header style
+ *********/
+ header{
+   display: flex;
+   align-items: center;
+  flex-direction: column;
+  transition: transform 2s linear ;
+}
+header:hover{
+   transform: scale(0.5);
+ }
+section{
+   background-color: black;
+   width: 950px;
+   height: 420px;
+   padding: 20px;
+   border-radius: 15px;
+   margin-top: 20px;
+   }
  h1{
     color: aliceblue;
     font-size: 3.2em;
@@ -19,28 +42,8 @@ body{
 }
 .top-section img{
     width: 100%;
-     
-    
-    
-}
-header{
-    display: flex;
-    align-items: center;
-   flex-direction: column;
-}
-section{
-    background-color: black;
-    width: 950px;
-    height: 420px;
-    padding: 20px;
-    border-radius: 15px;
-    margin-top: 20px;
-    }
-    .fa-greater-than{
-        font-size: 1.3em;
-        padding-left: 5px;
-        
-    }
+     }
+
     .anchor-button{
         text-decoration: none;
         background-color:red;
@@ -50,24 +53,32 @@ section{
         border-radius: 5px;
         margin-top: 20px;
     }
+    .fa-greater-than{
+      font-size: 1.3em;
+      padding-left: 5px;
+      
+  }
+
+  /******main section style******/
+  .main-section{
+    margin-bottom: 8%;
+   display: flex;
+    justify-content:center; 
+    }
+
+    .section-form{
+      height: 200px;
+      width: 195px;
+      background-color: black;
+       margin-left: 10%;
+       margin-top: 8%;
+          }
     .form-section{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         row-gap: 20px;
-         
-        
-        
-        
-    }
-    .section-form{
-        height: 200px;
-        width: 195px;
-        background-color: black;
-         margin-left: 10%;
-         margin-top: 8%;
-        
-        
-    }
+         }
+    
      .form-section input{
         padding: 15px 30px;
         
@@ -75,7 +86,7 @@ section{
         font-size: 1em;
          font-weight: 700;
      }
-     #blog{
+     .blog{
         background-color: red;
         color: white;
      }
@@ -90,12 +101,7 @@ section{
         grid-template-columns: repeat(3,1fr);
         grid-gap:15px;
      }
-     .main-section{
-         
-          margin-bottom: 8%;
-        display: flex;
-        justify-content:center; 
-         }
+     
          .flag{
             display: flex;
             justify-content: center;
@@ -113,6 +119,7 @@ section{
      .time{
         color: black;
      }
+     /********footer section style****/
      footer{
         text-align: center;
         color: white;
